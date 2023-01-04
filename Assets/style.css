@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+  }
+  
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    
+  }
+
+.main-header {
+    color: teal;
+    padding: 30px;
+    font-family: cursive;
+    background-color: coral;
+    
+  }
+  
+a {
+    color: blueviolet;
+    /* font-size: 30px; */
+    font-family: cursive;
+    /* background-color: azure;  */
+    padding-top: 15px;
+    margin-right: 20px; 
+    /* float: right;  */
+    /* position: relative; */
+    /* margin-top: -20px; */
+  }
+  
+.main-header div ul {  
+    list-style-type: none;  
+}
+
+.main-header div ul li {
+    margin-left: 10px;
+    float: right;     
+    /* display:inline-block; */
+    /* padding-top: 0px;  */
+    /* margin-right: 0px;  */
+    position: relative;
+    margin-top: -45px;
+}
+
+.heading {
+    background-color: red;
+    flex: 1 0 0px;
+    padding: 100px;
+    text-align: center; 
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+h2, h3, h4, h5 {
+    color: blueviolet;
+    font-size: 50px;
+    font-family: cursive ;
+    margin-top: -55px;
+    padding-top: 10px;
+
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+.work { 
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    color: blue;
+    background-color: black;
+} 
+
+.avatar {  
+    height: 200px;
+    width: 100%;
+     margin-bottom: 25px; 
+     background-image: url("./images/brand-awareness.png"); 
+    background-size: cover;
+    background-position: center;
+}
+img{
+    height: 200px;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+    aside {
+        width: 100%;
+        text-align: center;
+      }
+  
+   
+  }
